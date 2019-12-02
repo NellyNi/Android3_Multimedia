@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">jniMMMedley</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_draw">Multitouch Drawing</string>
+    <string name="menu_fireworks">Fireworks</string>
+    <string name="menu_movie">Movie</string>
+    <string name="menu_text">Text to Speech</string>
+    <string name="menu_speech">Speech to Text</string>
+    <string name="speech_hint">Tap on FAB to speak</string>
+    <string name="text_hint">Type something you want me to say!</string>
+</resources>

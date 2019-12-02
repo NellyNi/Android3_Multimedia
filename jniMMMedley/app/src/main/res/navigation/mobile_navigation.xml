@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.ucsb.cs.cs184.jiawei_ni.jnimmmedley.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="edu.ucsb.cs.cs184.jiawei_ni.jnimmmedley.ui.draw.DrawFragment"
+        android:label="@string/menu_draw"
+        tools:layout="@layout/fragment_draw" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="edu.ucsb.cs.cs184.jiawei_ni.jnimmmedley.ui.fireworks.FireworksFragment"
+        android:label="@string/menu_fireworks"
+        tools:layout="@layout/fragment_fireworks" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="edu.ucsb.cs.cs184.jiawei_ni.jnimmmedley.ui.movie.MovieFragment"
+        android:label="@string/menu_movie"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="edu.ucsb.cs.cs184.jiawei_ni.jnimmmedley.ui.text.TextFragment"
+        android:label="@string/menu_text"
+        tools:layout="@layout/fragment_text" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="edu.ucsb.cs.cs184.jiawei_ni.jnimmmedley.ui.speech.SpeechFragment"
+        android:label="@string/menu_speech"
+        tools:layout="@layout/fragment_speech" />
+</navigation>
